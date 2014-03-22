@@ -2,14 +2,7 @@
 <resources>
 
     <string name="action_settings">Settings</string>
-    <string name="hello">当前没有设置闹钟!</string>
-    <string name="app_name">闹钟</string>
-      <string name="str_button1">设置闹钟</string>
-  <string name="str_button2">删除闹钟</string>
-  <string name="str_title1">起床闹钟</string>
-  <string name="str_title2">非醒不可闹钟</string>
-  <string name="str_default">目前无设置</string>
-  <string name="str_text1">开始时间</string>
-  <string name="str_text2">响铃延迟</string>
-  <string name="str_text3">秒</string>
+    <string name="hello">暂无</string>
+    <string name="app_name">定时音乐</string>
+
 </resources>

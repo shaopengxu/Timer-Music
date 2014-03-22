@@ -33,7 +33,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:text="起床闹钟设置为:" />
+            android:text="音乐时间:" />
 
 
 
@@ -60,7 +60,7 @@
         android:id="@+id/setclock"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:text="设置闹钟"
+        android:text="设置音乐时间"
         android:textSize="18sp"
         
          />
@@ -71,77 +71,8 @@
         android:id="@+id/unsetclock"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:text="取消闹钟"
+        android:text="取消音乐时间"
         android:textSize="18sp" />
 </LinearLayout>
-
-   <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-
-
-
-        <TextView
-            android:id="@+id/textview3"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text="重复闹钟设置为:" />
-
-
-
-
-
-
-
-        <TextView
-            android:id="@+id/textview4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:text="@string/hello" />
-
-    </LinearLayout>
-    
-        <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-    <Button
-        android:gravity="center"
-        android:layout_weight="1"
-        android:id="@+id/setclocks"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:text="设置闹钟"
-        android:textSize="18sp"
-        
-         />
-
-    <Button
-        android:gravity="center"
-        android:layout_weight="1"
-        android:id="@+id/unsetclocks"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:text="取消闹钟"
-        android:textSize="18sp" />
-</LinearLayout>
-    <!--
-        <Button 
-    android:id="@+id/btn3"
-    android:layout_width="wrap_content"
-    android:layout_height="40px"
-    android:text="设置闹铃"
-    
-    android:textSize="18sp"
-    android:layout_x="190px"
-    android:layout_y="145px"
-        />
-
-    -->
 
 </LinearLayout>
